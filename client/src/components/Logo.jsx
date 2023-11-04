@@ -49,7 +49,7 @@ export default function Logo({ disabledLink = false, sx }) {
           />
         </g>
       </svg> */}
-      <img src = "/static/logo.png"/>
+      <img src = "/static/splitapplogo.png"/>
     </Box>
   );
 
