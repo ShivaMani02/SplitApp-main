@@ -2,7 +2,7 @@ import axios from 'axios'
 
 
 //const API = axios.create({ baseURL: 'http://localhost:3001'})
-const API = axios.create({ baseURL: ''})
+const API = axios.create({ baseURL: 'https://splitapp-v3.onrender.com'})
 
 const profile = JSON.parse(localStorage.getItem('profile'))
 
