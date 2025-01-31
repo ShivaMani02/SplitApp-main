@@ -9,11 +9,6 @@ This is a side project I've been working on. A full stack expense spliting app -
 - Authentication using JSON web token (JWT) 
 
 
-## Demo
-Check out the video tutorial on **Dev. Shivansh Vasu** channel:
-- [YouTube Channel](https://www.youtube.com/@shivanshvasu/videos)
-
-
 ## Technologies used
 This project was created using the following technologies.
 
