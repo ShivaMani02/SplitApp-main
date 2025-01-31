@@ -32,6 +32,16 @@ MERN Stack Group Expense Splitting Application
 <li>Authentication using JSON web token (JWT) </li>
 </ul>
 <br/>
+
+<h2 id="introduction">ABOUT CODER</h2>
+<br/>
+<p>
+Check out the video tutorial on **Dev. Shivansh Vasu** channel:
+- [YouTube Channel](https://www.youtube.com/@shivanshvasu/videos)
+</p>
+<br/>
+
+
 <h2 id="technologies-used">Technologies used</h2>
 <br/>
 <p>This project was created using the following technologies.</p>

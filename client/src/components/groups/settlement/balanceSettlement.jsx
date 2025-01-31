@@ -36,7 +36,7 @@ const BalanceSettlement = ({ currencyType, settleTo, settleFrom, amount, handleC
       settleTo: settleTo,
       settleFrom: settleFrom,
       settleAmount: amount,
-      settleDate: Date(),
+      settleDate: Date.UTC(),
       groupId: params.groupId,
     },
     validationSchema: settlementSchema,
