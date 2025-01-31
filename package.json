@@ -8,7 +8,7 @@
     "start": "node app.js",
     "heroku-postbuild": "cd client && npm install && npm run build",
     "dev": "concurrently \"npm test\" \"cd client && npm start\" ",
-    "deploy":"concurrently \"npm install && npm start\" \"cd client && npm install && npm start\""
+    "deploy":"concurrently \"npm start\" \"cd client && npm start\""
   },
   "keywords": [
     "SplitWise"

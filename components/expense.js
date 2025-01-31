@@ -395,7 +395,7 @@ exports.groupMonthlyExpense = async (req, res) => {
 }
 
 
-new Date(new Date.UTC().setMonth(new Date.UTC().getMonth() - 5))
+new Date(new Date().setMonth(new Date().getMonth() - 5))
 /*
 Group Daily Expense Function 
 This function is used to get the dailyly amount spend in a group 
@@ -407,8 +407,8 @@ exports.groupDailyExpense = async (req, res) => {
         var dailyExpense = await model.Expense.aggregate([{
                 $match: { groupId: req.body.id,
                 expenseDate: {
-                    $gte: new Date(new Date.UTC().setMonth(new Date.UTC().getMonth() - 1)), 
-                    $lte: new Date.UTC()}             
+                    $gte: new Date(new Date().setMonth(new Date().getMonth() - 1)), 
+                    $lte: new Date()}             
                 }
             },
             {
@@ -537,8 +537,8 @@ exports.userDailyExpense = async (req, res) => {
                 $match: {
                     expenseMembers: req.body.user,
                     expenseDate: {
-                        $gte: new Date(new Date.UTC().setMonth(new Date.UTC().getMonth() - 1)), 
-                        $lte: new Date.UTC()}
+                        $gte: new Date(new Date().setMonth(new Date().getMonth() - 1)), 
+                        $lte: new Date()}
                 }
             },
             {

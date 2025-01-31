@@ -46,7 +46,7 @@ export default function AddExpense() {
       expenseDescription: '',
       expenseAmount: '',
       expenseCategory: '',
-      expenseDate: Date.UTC(),
+      expenseDate: Date(),
       expenseMembers: [],
       expenseOwner: currentUser,
       groupId: groupId, 
