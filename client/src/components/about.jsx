@@ -22,6 +22,17 @@ MERN Stack Group Expense Splitting Application
 <p>This is a side project I&#39;ve been working on. A full stack expense spliting app - splitwise clone made using the MERN stack (MongoDB, Express, React &amp; Nodejs), specially designed to split group expense between friends, but can be used for almost any type of business need. With this application, you can add your expense details and get an whole expense analytics feature - Group Balance, Monthly amount spend, Catagory wise expense spending graph etc.</p>
 <br/>
 
+
+<h2 id="introduction">ABOUT CODER</h2>
+<br/>
+<p>
+Check out the video tutorial on **Dev. Shivansh Vasu** channel:
+- [YouTube Channel](https://www.youtube.com/@shivanshvasu/videos)
+</p>
+<br/>
+
+
+
 <h2 id="key-features">Key Features</h2>
 <br/>
 <ul style={{marginLeft: '40px'}}>
